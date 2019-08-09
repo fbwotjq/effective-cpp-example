@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/BoostDL.cpp
+iostream
+-
+memory
+-
+di.hpp
+/Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/di.hpp
+
+/usr/local/Cellar/boost/1.70.0/include/boost/di.hpp
+__config
+-
+memory
+-
+vector
+-
+set
+-
+initializer_list
+-
+tuple
+-
+iterator
+-
+string
+-
+boost/shared_ptr.hpp
+-
+
