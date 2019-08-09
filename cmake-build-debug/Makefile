@@ -123,32 +123,32 @@ effective_cpp_example/fast:
 	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/build
 .PHONY : effective_cpp_example/fast
 
-design-patterns/BoostDL.o: design-patterns/BoostDL.cpp.o
+design-patterns/FluentBuilder.o: design-patterns/FluentBuilder.cpp.o
 
-.PHONY : design-patterns/BoostDL.o
+.PHONY : design-patterns/FluentBuilder.o
 
 # target to build an object file
-design-patterns/BoostDL.cpp.o:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/BoostDL.cpp.o
-.PHONY : design-patterns/BoostDL.cpp.o
+design-patterns/FluentBuilder.cpp.o:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o
+.PHONY : design-patterns/FluentBuilder.cpp.o
 
-design-patterns/BoostDL.i: design-patterns/BoostDL.cpp.i
+design-patterns/FluentBuilder.i: design-patterns/FluentBuilder.cpp.i
 
-.PHONY : design-patterns/BoostDL.i
+.PHONY : design-patterns/FluentBuilder.i
 
 # target to preprocess a source file
-design-patterns/BoostDL.cpp.i:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/BoostDL.cpp.i
-.PHONY : design-patterns/BoostDL.cpp.i
+design-patterns/FluentBuilder.cpp.i:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.i
+.PHONY : design-patterns/FluentBuilder.cpp.i
 
-design-patterns/BoostDL.s: design-patterns/BoostDL.cpp.s
+design-patterns/FluentBuilder.s: design-patterns/FluentBuilder.cpp.s
 
-.PHONY : design-patterns/BoostDL.s
+.PHONY : design-patterns/FluentBuilder.s
 
 # target to generate assembly for a file
-design-patterns/BoostDL.cpp.s:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/BoostDL.cpp.s
-.PHONY : design-patterns/BoostDL.cpp.s
+design-patterns/FluentBuilder.cpp.s:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.s
+.PHONY : design-patterns/FluentBuilder.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... effective_cpp_example"
-	@echo "... design-patterns/BoostDL.o"
-	@echo "... design-patterns/BoostDL.i"
-	@echo "... design-patterns/BoostDL.s"
+	@echo "... design-patterns/FluentBuilder.o"
+	@echo "... design-patterns/FluentBuilder.i"
+	@echo "... design-patterns/FluentBuilder.s"
 .PHONY : help
 
 
