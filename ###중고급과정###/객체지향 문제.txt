@@ -1,0 +1,18 @@
+1. 객체의 다형성(polymorphim)과 STL(VECTOR)을 이용한 프로그램
+예시)
+나이 : 20세 이상 : 어른
+       10~19     : 십대
+       0~ 9      : 어린이
+
+어른 : 할인율 0%
+십대 : 할인율 50%
+어린이 : 할인율 80%
+
+금액을 계산하는 메소드 : calcPay(Object *obj)  
+어른 십대 어린이는 vector에 담아서 표현할 것
+
+
+class Adult
+class TeanAger
+class Child
+클래스를 만들어서 사용

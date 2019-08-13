@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/Builder.cpp
+/Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/FluentBuilder.cpp
 iostream
 -
 memory
