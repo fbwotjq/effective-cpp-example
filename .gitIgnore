@@ -1,2 +1,3 @@
 .idea/
 cmake-build-debug/CMakeFiles/effective_cpp_example.dir/
+cmake-build-debug/**

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/FluentBuilder.cpp
+/Users/jaco.ryu/CLionProjects/effective-cpp-example/20190820/exam.cpp
 iostream
--
-memory
 -
 sstream
 -
 string
 -
 vector
+-
+numeric
 -
 

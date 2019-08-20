@@ -123,32 +123,32 @@ effective_cpp_example/fast:
 	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/build
 .PHONY : effective_cpp_example/fast
 
-design-patterns/FluentBuilder.o: design-patterns/FluentBuilder.cpp.o
+20190820/exam.o: 20190820/exam.cpp.o
 
-.PHONY : design-patterns/FluentBuilder.o
+.PHONY : 20190820/exam.o
 
 # target to build an object file
-design-patterns/FluentBuilder.cpp.o:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o
-.PHONY : design-patterns/FluentBuilder.cpp.o
+20190820/exam.cpp.o:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o
+.PHONY : 20190820/exam.cpp.o
 
-design-patterns/FluentBuilder.i: design-patterns/FluentBuilder.cpp.i
+20190820/exam.i: 20190820/exam.cpp.i
 
-.PHONY : design-patterns/FluentBuilder.i
+.PHONY : 20190820/exam.i
 
 # target to preprocess a source file
-design-patterns/FluentBuilder.cpp.i:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.i
-.PHONY : design-patterns/FluentBuilder.cpp.i
+20190820/exam.cpp.i:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.i
+.PHONY : 20190820/exam.cpp.i
 
-design-patterns/FluentBuilder.s: design-patterns/FluentBuilder.cpp.s
+20190820/exam.s: 20190820/exam.cpp.s
 
-.PHONY : design-patterns/FluentBuilder.s
+.PHONY : 20190820/exam.s
 
 # target to generate assembly for a file
-design-patterns/FluentBuilder.cpp.s:
-	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.s
-.PHONY : design-patterns/FluentBuilder.cpp.s
+20190820/exam.cpp.s:
+	$(MAKE) -f CMakeFiles/effective_cpp_example.dir/build.make CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.s
+.PHONY : 20190820/exam.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... effective_cpp_example"
-	@echo "... design-patterns/FluentBuilder.o"
-	@echo "... design-patterns/FluentBuilder.i"
-	@echo "... design-patterns/FluentBuilder.s"
+	@echo "... 20190820/exam.o"
+	@echo "... 20190820/exam.i"
+	@echo "... 20190820/exam.s"
 .PHONY : help
 
 

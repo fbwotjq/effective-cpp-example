@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o"
+  "CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o"
   "effective_cpp_example.pdb"
   "effective_cpp_example"
 )

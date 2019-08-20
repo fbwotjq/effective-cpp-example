@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/boost/1.70.0/include/boost 
+CXX_INCLUDES = -I/usr/local/Cellar/boost/1.70.0/include 
 

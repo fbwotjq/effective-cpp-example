@@ -27,11 +27,13 @@ set(CMAKE_CXX_STANDARD 14)
 #20190726/function-point-example-02.cpp
 #20190726/io-example-01.cpp
 #design-patterns/SRP.cpp design-patterns/OCP.cpp design-patterns/LSP.cpp design-patterns/ISP.cpp design-patterns/BoostDL.cpp
-#design-patterns/LifeWithoutBuilder.cpp design-patterns/Builder.cpp
+#design-patterns/LifeWithoutBuilder.cpp design-patterns/Builder.cpp design-patterns/FluentBuilder.cpp design-patterns/GroovyStyleBuilder.cpp
+#design-patterns/BuilderFacets.cpp
 #)
 
-include_directories("/usr/local/Cellar/boost/1.70.0/include/boost")
+#include_directories("/usr/local/Cellar/boost/1.70.0/include/boost")
+include_directories("/usr/local/Cellar/boost/1.70.0/include")
 
-add_executable(effective_cpp_example design-patterns/FluentBuilder.cpp)
+add_executable(effective_cpp_example 20190820/exam.cpp)
 
 #stl-example/13_AirlineTicket/AirlineTicket.h stl-example/13_AirlineTicket/AirlineTicket.cpp stl-example/13_AirlineTicket/AirlineTicketTest.cpp

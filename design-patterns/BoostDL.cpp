@@ -19,7 +19,7 @@
 
 #include <iostream>
 #include <memory>
-#include "di.hpp"
+#include "/usr/local/Cellar/boost/1.70.0/include/boost/di.hpp"
 
 struct ILogger {
     virtual void Log(const std::string& s) = 0;

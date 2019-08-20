@@ -57,27 +57,27 @@ include CMakeFiles/effective_cpp_example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/effective_cpp_example.dir/flags.make
 
-CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o: CMakeFiles/effective_cpp_example.dir/flags.make
-CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o: ../design-patterns/FluentBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaco.ryu/CLionProjects/effective-cpp-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o -c /Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/FluentBuilder.cpp
+CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o: CMakeFiles/effective_cpp_example.dir/flags.make
+CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o: ../20190820/exam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jaco.ryu/CLionProjects/effective-cpp-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o -c /Users/jaco.ryu/CLionProjects/effective-cpp-example/20190820/exam.cpp
 
-CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/FluentBuilder.cpp > CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.i
+CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jaco.ryu/CLionProjects/effective-cpp-example/20190820/exam.cpp > CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.i
 
-CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaco.ryu/CLionProjects/effective-cpp-example/design-patterns/FluentBuilder.cpp -o CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.s
+CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jaco.ryu/CLionProjects/effective-cpp-example/20190820/exam.cpp -o CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.s
 
 # Object files for target effective_cpp_example
 effective_cpp_example_OBJECTS = \
-"CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o"
+"CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o"
 
 # External object files for target effective_cpp_example
 effective_cpp_example_EXTERNAL_OBJECTS =
 
-effective_cpp_example: CMakeFiles/effective_cpp_example.dir/design-patterns/FluentBuilder.cpp.o
+effective_cpp_example: CMakeFiles/effective_cpp_example.dir/20190820/exam.cpp.o
 effective_cpp_example: CMakeFiles/effective_cpp_example.dir/build.make
 effective_cpp_example: CMakeFiles/effective_cpp_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jaco.ryu/CLionProjects/effective-cpp-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable effective_cpp_example"
